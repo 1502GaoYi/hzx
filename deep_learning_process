@@ -1,0 +1,19 @@
+// 深度学习过程
+digraph {
+	fontname=SimSun
+	A [label="数据准备" fontname=SimSun]
+	B [label="模型选择" fontname=SimSun]
+	C [label="模型构建" fontname=SimSun]
+	D [label="模型训练" fontname=SimSun]
+	E [label="模型验证" fontname=SimSun]
+	F [label="模型测试" fontname=SimSun]
+	G [label="模型部署" fontname=SimSun]
+	H [label="模型优化" fontname=SimSun]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+	F -> G
+	G -> H
+}
